@@ -1,0 +1,308 @@
+2016-02-29 04:27:31 PM - INFO - Action: init
+2016-02-29 04:27:31 PM - DEBUG - Init a DB
+2016-02-29 04:27:31 PM - INFO - New DB is created
+2016-02-29 04:27:31 PM - DEBUG - Storing DB to file
+2016-02-29 04:27:31 PM - INFO - DB stored to file
+2016-02-29 04:27:31 PM - DEBUG - Load DB
+2016-03-02 03:34:20 AM - INFO - Action: init
+2016-03-02 03:34:20 AM - DEBUG - Init a DB
+2016-03-02 03:34:20 AM - INFO - DB exist
+2016-03-02 03:35:38 AM - INFO - Action: add
+2016-03-02 03:35:38 AM - DEBUG - Argument: Change slack e-mail
+2016-03-02 03:35:38 AM - DEBUG - Load DB
+2016-03-02 03:35:38 AM - DEBUG - db loaded with data: {}
+2016-03-02 03:35:38 AM - INFO - Adding item to db Id: 0 With Content:{'description': 'Change slack e-mail', 'tags': []}
+2016-03-02 03:35:38 AM - DEBUG - Storing DB to file
+2016-03-02 03:35:38 AM - INFO - DB stored to file
+2016-03-02 03:35:48 AM - INFO - Action: list
+2016-03-02 03:35:48 AM - DEBUG - Load DB
+2016-03-02 03:35:48 AM - DEBUG - db loaded with data: {u'0': {u'status': u'New', u'description': u'Change slack e-mail', u'tags': []}}
+2016-03-02 03:35:48 AM - DEBUG - Load DB
+2016-03-02 03:35:48 AM - DEBUG - db loaded with data: {u'0': {u'status': u'New', u'description': u'Change slack e-mail', u'tags': []}}
+2016-03-02 03:35:48 AM - DEBUG - Storing DB to file
+2016-03-02 03:35:48 AM - INFO - DB stored to file
+2016-03-02 03:39:55 AM - INFO - Action: update wiki with db upload process
+2016-03-02 03:39:55 AM - DEBUG - Load DB
+2016-03-02 03:39:55 AM - DEBUG - db loaded with data: {u'0': {u'status': u'New', u'description': u'Change slack e-mail', u'tags': []}}
+2016-03-02 03:40:04 AM - INFO - Action: add
+2016-03-02 03:40:04 AM - DEBUG - Argument: update wiki with db upload process
+2016-03-02 03:40:04 AM - DEBUG - Load DB
+2016-03-02 03:40:04 AM - DEBUG - db loaded with data: {u'0': {u'status': u'New', u'description': u'Change slack e-mail', u'tags': []}}
+2016-03-02 03:40:04 AM - INFO - Adding item to db Id: 1 With Content:{'description': 'update wiki with db upload process', 'tags': []}
+2016-03-02 03:40:04 AM - DEBUG - Storing DB to file
+2016-03-02 03:40:04 AM - INFO - DB stored to file
+2016-03-02 04:29:29 AM - INFO - Action: list
+2016-03-02 04:29:29 AM - DEBUG - Load DB
+2016-03-02 04:29:29 AM - DEBUG - db loaded with data: {u'1': {u'status': u'New', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'New', u'description': u'Change slack e-mail', u'tags': []}}
+2016-03-02 04:29:29 AM - DEBUG - Load DB
+2016-03-02 04:29:29 AM - DEBUG - db loaded with data: {u'1': {u'status': u'New', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'New', u'description': u'Change slack e-mail', u'tags': []}}
+2016-03-02 04:29:29 AM - DEBUG - Storing DB to file
+2016-03-02 04:29:29 AM - INFO - DB stored to file
+2016-03-02 04:29:53 AM - INFO - Action: status
+2016-03-02 04:29:53 AM - DEBUG - Argument: 1
+2016-03-02 04:29:53 AM - DEBUG - Argument: Done
+2016-03-02 04:29:53 AM - DEBUG - Load DB
+2016-03-02 04:29:53 AM - DEBUG - db loaded with data: {u'1': {u'status': u'New', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'New', u'description': u'Change slack e-mail', u'tags': []}}
+2016-03-02 04:30:07 AM - INFO - Action: setstatus
+2016-03-02 04:30:07 AM - DEBUG - Argument: 1
+2016-03-02 04:30:07 AM - DEBUG - Argument: Done
+2016-03-02 04:30:07 AM - DEBUG - Load DB
+2016-03-02 04:30:07 AM - DEBUG - db loaded with data: {u'1': {u'status': u'New', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'New', u'description': u'Change slack e-mail', u'tags': []}}
+2016-03-02 04:32:58 AM - INFO - Action: setstatus
+2016-03-02 04:32:58 AM - DEBUG - Argument: 1
+2016-03-02 04:32:58 AM - DEBUG - Argument: Done
+2016-03-02 04:32:58 AM - DEBUG - Load DB
+2016-03-02 04:32:58 AM - DEBUG - db loaded with data: {u'1': {u'status': u'New', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'New', u'description': u'Change slack e-mail', u'tags': []}}
+2016-03-02 04:33:04 AM - INFO - Action: status
+2016-03-02 04:33:04 AM - DEBUG - Argument: 1
+2016-03-02 04:33:04 AM - DEBUG - Argument: Done
+2016-03-02 04:33:04 AM - DEBUG - Load DB
+2016-03-02 04:33:04 AM - DEBUG - db loaded with data: {u'1': {u'status': u'New', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'New', u'description': u'Change slack e-mail', u'tags': []}}
+2016-03-02 04:33:04 AM - DEBUG - Storing DB to file
+2016-03-02 04:33:04 AM - INFO - DB stored to file
+2016-03-02 04:33:13 AM - INFO - Action: list
+2016-03-02 04:33:13 AM - DEBUG - Load DB
+2016-03-02 04:33:13 AM - DEBUG - db loaded with data: {u'1': {u'status': u'New', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'New', u'description': u'Change slack e-mail', u'tags': []}}
+2016-03-02 04:33:13 AM - DEBUG - Load DB
+2016-03-02 04:33:13 AM - DEBUG - db loaded with data: {u'1': {u'status': u'New', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'New', u'description': u'Change slack e-mail', u'tags': []}}
+2016-03-02 04:33:13 AM - DEBUG - Storing DB to file
+2016-03-02 04:33:13 AM - INFO - DB stored to file
+2016-03-02 04:34:40 AM - INFO - Action: list
+2016-03-02 04:34:40 AM - DEBUG - Load DB
+2016-03-02 04:34:40 AM - DEBUG - db loaded with data: {u'1': {u'status': u'New', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'New', u'description': u'Change slack e-mail', u'tags': []}}
+2016-03-02 04:34:40 AM - DEBUG - Load DB
+2016-03-02 04:34:40 AM - DEBUG - db loaded with data: {u'1': {u'status': u'New', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'New', u'description': u'Change slack e-mail', u'tags': []}}
+2016-03-02 04:34:40 AM - DEBUG - Storing DB to file
+2016-03-02 04:34:40 AM - INFO - DB stored to file
+2016-03-02 04:34:46 AM - INFO - Action: status
+2016-03-02 04:34:46 AM - DEBUG - Argument: 1
+2016-03-02 04:34:46 AM - DEBUG - Argument: Done
+2016-03-02 04:34:46 AM - DEBUG - Load DB
+2016-03-02 04:34:46 AM - DEBUG - db loaded with data: {u'1': {u'status': u'New', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'New', u'description': u'Change slack e-mail', u'tags': []}}
+2016-03-02 04:34:46 AM - DEBUG - set status of 1 to Done
+2016-03-02 04:34:46 AM - DEBUG - Storing DB to file
+2016-03-02 04:34:46 AM - INFO - DB stored to file
+2016-03-02 04:35:32 AM - INFO - Action: status
+2016-03-02 04:35:32 AM - DEBUG - Argument: 1
+2016-03-02 04:35:32 AM - DEBUG - Argument: Done
+2016-03-02 04:35:32 AM - DEBUG - Load DB
+2016-03-02 04:35:32 AM - DEBUG - db loaded with data: {u'1': {u'status': u'New', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'New', u'description': u'Change slack e-mail', u'tags': []}}
+2016-03-02 04:36:33 AM - INFO - Action: status
+2016-03-02 04:36:33 AM - DEBUG - Argument: 1
+2016-03-02 04:36:33 AM - DEBUG - Argument: Done
+2016-03-02 04:36:33 AM - DEBUG - Load DB
+2016-03-02 04:36:33 AM - DEBUG - db loaded with data: {u'1': {u'status': u'New', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'New', u'description': u'Change slack e-mail', u'tags': []}}
+2016-03-02 04:36:33 AM - DEBUG - set status of 1 to Done
+2016-03-02 04:36:33 AM - DEBUG - Storing DB to file
+2016-03-02 04:36:33 AM - INFO - DB stored to file
+2016-03-02 04:36:37 AM - INFO - Action: list
+2016-03-02 04:36:37 AM - DEBUG - Load DB
+2016-03-02 04:36:37 AM - DEBUG - db loaded with data: {u'1': {u'status': u'Done', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'New', u'description': u'Change slack e-mail', u'tags': []}}
+2016-03-02 04:36:37 AM - DEBUG - Load DB
+2016-03-02 04:36:37 AM - DEBUG - db loaded with data: {u'1': {u'status': u'Done', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'New', u'description': u'Change slack e-mail', u'tags': []}}
+2016-03-02 04:36:37 AM - DEBUG - Storing DB to file
+2016-03-02 04:36:37 AM - INFO - DB stored to file
+2016-03-02 10:45:25 AM - INFO - Action: add
+2016-03-02 10:45:25 AM - DEBUG - Argument: konstig namn på rtdbvar
+2016-03-02 10:45:25 AM - DEBUG - Load DB
+2016-03-02 10:45:25 AM - DEBUG - db loaded with data: {u'1': {u'status': u'Done', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'New', u'description': u'Change slack e-mail', u'tags': []}}
+2016-03-02 10:45:25 AM - INFO - Adding item to db Id: 2 With Content:{'description': 'konstig namn p\xc3\xa5 rtdbvar', 'tags': []}
+2016-03-02 10:45:25 AM - DEBUG - Storing DB to file
+2016-03-02 10:45:25 AM - INFO - DB stored to file
+2016-03-02 10:45:38 AM - INFO - Action: add
+2016-03-02 10:45:38 AM - DEBUG - Argument: saknar hieracy
+2016-03-02 10:45:38 AM - DEBUG - Load DB
+2016-03-02 10:45:38 AM - DEBUG - db loaded with data: {u'1': {u'status': u'Done', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'New', u'description': u'Change slack e-mail', u'tags': []}, u'2': {u'status': u'New', u'description': u'konstig namn p\xe5 rtdbvar', u'tags': []}}
+2016-03-02 10:45:38 AM - INFO - Adding item to db Id: 3 With Content:{'description': 'saknar hieracy', 'tags': []}
+2016-03-02 10:45:38 AM - DEBUG - Storing DB to file
+2016-03-02 10:45:38 AM - INFO - DB stored to file
+2016-03-02 10:45:59 AM - INFO - Action: list
+2016-03-02 10:45:59 AM - DEBUG - Load DB
+2016-03-02 10:45:59 AM - DEBUG - db loaded with data: {u'1': {u'status': u'Done', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'New', u'description': u'Change slack e-mail', u'tags': []}, u'3': {u'status': u'New', u'description': u'saknar hieracy', u'tags': []}, u'2': {u'status': u'New', u'description': u'konstig namn p\xe5 rtdbvar', u'tags': []}}
+2016-03-02 10:45:59 AM - DEBUG - Load DB
+2016-03-02 10:45:59 AM - DEBUG - db loaded with data: {u'1': {u'status': u'Done', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'New', u'description': u'Change slack e-mail', u'tags': []}, u'3': {u'status': u'New', u'description': u'saknar hieracy', u'tags': []}, u'2': {u'status': u'New', u'description': u'konstig namn p\xe5 rtdbvar', u'tags': []}}
+2016-03-02 10:45:59 AM - DEBUG - Storing DB to file
+2016-03-02 10:45:59 AM - INFO - DB stored to file
+2016-03-02 10:46:03 AM - INFO - Action: list
+2016-03-02 10:46:03 AM - DEBUG - Load DB
+2016-03-02 10:46:03 AM - DEBUG - db loaded with data: {u'1': {u'status': u'Done', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'New', u'description': u'Change slack e-mail', u'tags': []}, u'3': {u'status': u'New', u'description': u'saknar hieracy', u'tags': []}, u'2': {u'status': u'New', u'description': u'konstig namn p\xe5 rtdbvar', u'tags': []}}
+2016-03-02 10:46:03 AM - DEBUG - Load DB
+2016-03-02 10:46:03 AM - DEBUG - db loaded with data: {u'1': {u'status': u'Done', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'New', u'description': u'Change slack e-mail', u'tags': []}, u'3': {u'status': u'New', u'description': u'saknar hieracy', u'tags': []}, u'2': {u'status': u'New', u'description': u'konstig namn p\xe5 rtdbvar', u'tags': []}}
+2016-03-02 10:46:03 AM - DEBUG - Storing DB to file
+2016-03-02 10:46:03 AM - INFO - DB stored to file
+2016-03-02 10:46:07 AM - INFO - Action: list
+2016-03-02 10:46:07 AM - DEBUG - Load DB
+2016-03-02 10:46:07 AM - DEBUG - db loaded with data: {u'1': {u'status': u'Done', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'New', u'description': u'Change slack e-mail', u'tags': []}, u'3': {u'status': u'New', u'description': u'saknar hieracy', u'tags': []}, u'2': {u'status': u'New', u'description': u'konstig namn p\xe5 rtdbvar', u'tags': []}}
+2016-03-02 10:46:07 AM - DEBUG - Load DB
+2016-03-02 10:46:07 AM - DEBUG - db loaded with data: {u'1': {u'status': u'Done', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'New', u'description': u'Change slack e-mail', u'tags': []}, u'3': {u'status': u'New', u'description': u'saknar hieracy', u'tags': []}, u'2': {u'status': u'New', u'description': u'konstig namn p\xe5 rtdbvar', u'tags': []}}
+2016-03-02 10:46:07 AM - DEBUG - Storing DB to file
+2016-03-02 10:46:07 AM - INFO - DB stored to file
+2016-03-03 03:20:33 AM - INFO - Action: list
+2016-03-03 03:20:33 AM - DEBUG - Load DB
+2016-03-03 03:20:33 AM - DEBUG - db loaded with data: {u'1': {u'status': u'Done', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'New', u'description': u'Change slack e-mail', u'tags': []}, u'3': {u'status': u'New', u'description': u'saknar hieracy', u'tags': []}, u'2': {u'status': u'New', u'description': u'konstig namn p\xe5 rtdbvar', u'tags': []}}
+2016-03-03 03:20:33 AM - DEBUG - Load DB
+2016-03-03 03:20:33 AM - DEBUG - db loaded with data: {u'1': {u'status': u'Done', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'New', u'description': u'Change slack e-mail', u'tags': []}, u'3': {u'status': u'New', u'description': u'saknar hieracy', u'tags': []}, u'2': {u'status': u'New', u'description': u'konstig namn p\xe5 rtdbvar', u'tags': []}}
+2016-03-03 03:20:33 AM - DEBUG - Storing DB to file
+2016-03-03 03:20:33 AM - INFO - DB stored to file
+2016-03-03 03:26:33 AM - INFO - Action: list
+2016-03-03 03:26:33 AM - DEBUG - Load DB
+2016-03-03 03:26:33 AM - DEBUG - db loaded with data: {u'1': {u'status': u'Done', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'New', u'description': u'Change slack e-mail', u'tags': []}, u'3': {u'status': u'New', u'description': u'saknar hieracy', u'tags': []}, u'2': {u'status': u'New', u'description': u'konstig namn p\xe5 rtdbvar', u'tags': []}}
+2016-03-03 03:26:33 AM - DEBUG - Load DB
+2016-03-03 03:26:33 AM - DEBUG - db loaded with data: {u'1': {u'status': u'Done', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'New', u'description': u'Change slack e-mail', u'tags': []}, u'3': {u'status': u'New', u'description': u'saknar hieracy', u'tags': []}, u'2': {u'status': u'New', u'description': u'konstig namn p\xe5 rtdbvar', u'tags': []}}
+2016-03-03 03:26:33 AM - DEBUG - Storing DB to file
+2016-03-03 03:26:33 AM - INFO - DB stored to file
+2016-03-03 03:28:11 AM - INFO - Action: list
+2016-03-03 03:28:11 AM - DEBUG - Load DB
+2016-03-03 03:28:11 AM - DEBUG - db loaded with data: {u'1': {u'status': u'Done', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'New', u'description': u'Change slack e-mail', u'tags': []}, u'3': {u'status': u'New', u'description': u'saknar hieracy', u'tags': []}, u'2': {u'status': u'New', u'description': u'konstig namn p\xe5 rtdbvar', u'tags': []}}
+2016-03-03 03:28:11 AM - DEBUG - Load DB
+2016-03-03 03:28:11 AM - DEBUG - db loaded with data: {u'1': {u'status': u'Done', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'New', u'description': u'Change slack e-mail', u'tags': []}, u'3': {u'status': u'New', u'description': u'saknar hieracy', u'tags': []}, u'2': {u'status': u'New', u'description': u'konstig namn p\xe5 rtdbvar', u'tags': []}}
+2016-03-03 03:28:11 AM - DEBUG - Storing DB to file
+2016-03-03 03:28:11 AM - INFO - DB stored to file
+2016-03-03 03:28:30 AM - INFO - Action: list
+2016-03-03 03:28:30 AM - DEBUG - Load DB
+2016-03-03 03:28:30 AM - DEBUG - db loaded with data: {u'1': {u'status': u'Done', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'New', u'description': u'Change slack e-mail', u'tags': []}, u'3': {u'status': u'New', u'description': u'saknar hieracy', u'tags': []}, u'2': {u'status': u'New', u'description': u'konstig namn p\xe5 rtdbvar', u'tags': []}}
+2016-03-03 03:28:30 AM - DEBUG - Load DB
+2016-03-03 03:28:30 AM - DEBUG - db loaded with data: {u'1': {u'status': u'Done', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'New', u'description': u'Change slack e-mail', u'tags': []}, u'3': {u'status': u'New', u'description': u'saknar hieracy', u'tags': []}, u'2': {u'status': u'New', u'description': u'konstig namn p\xe5 rtdbvar', u'tags': []}}
+2016-03-03 03:28:30 AM - DEBUG - Storing DB to file
+2016-03-03 03:28:30 AM - INFO - DB stored to file
+2016-03-03 03:28:53 AM - INFO - Action: status
+2016-03-03 03:28:53 AM - DEBUG - Argument: 3
+2016-03-03 03:28:53 AM - DEBUG - Argument: Done
+2016-03-03 03:28:53 AM - DEBUG - Load DB
+2016-03-03 03:28:53 AM - DEBUG - db loaded with data: {u'1': {u'status': u'Done', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'New', u'description': u'Change slack e-mail', u'tags': []}, u'3': {u'status': u'New', u'description': u'saknar hieracy', u'tags': []}, u'2': {u'status': u'New', u'description': u'konstig namn p\xe5 rtdbvar', u'tags': []}}
+2016-03-03 03:28:53 AM - DEBUG - set status of 3 to Done
+2016-03-03 03:28:53 AM - DEBUG - Storing DB to file
+2016-03-03 03:28:53 AM - INFO - DB stored to file
+2016-03-03 03:28:55 AM - INFO - Action: list
+2016-03-03 03:28:55 AM - DEBUG - Load DB
+2016-03-03 03:28:55 AM - DEBUG - db loaded with data: {u'1': {u'status': u'Done', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'New', u'description': u'Change slack e-mail', u'tags': []}, u'3': {u'status': u'Done', u'description': u'saknar hieracy', u'tags': []}, u'2': {u'status': u'New', u'description': u'konstig namn p\xe5 rtdbvar', u'tags': []}}
+2016-03-03 03:28:55 AM - DEBUG - Load DB
+2016-03-03 03:28:55 AM - DEBUG - db loaded with data: {u'1': {u'status': u'Done', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'New', u'description': u'Change slack e-mail', u'tags': []}, u'3': {u'status': u'Done', u'description': u'saknar hieracy', u'tags': []}, u'2': {u'status': u'New', u'description': u'konstig namn p\xe5 rtdbvar', u'tags': []}}
+2016-03-03 03:28:55 AM - DEBUG - Storing DB to file
+2016-03-03 03:28:55 AM - INFO - DB stored to file
+2016-03-03 04:41:34 PM - INFO - Action: list
+2016-03-03 04:41:34 PM - DEBUG - Load DB
+2016-03-03 04:41:34 PM - DEBUG - db loaded with data: {u'1': {u'status': u'Done', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'New', u'description': u'Change slack e-mail', u'tags': []}, u'3': {u'status': u'Done', u'description': u'saknar hieracy', u'tags': []}, u'2': {u'status': u'New', u'description': u'konstig namn p\xe5 rtdbvar', u'tags': []}}
+2016-03-03 04:41:35 PM - DEBUG - Load DB
+2016-03-03 04:41:35 PM - DEBUG - db loaded with data: {u'1': {u'status': u'Done', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'New', u'description': u'Change slack e-mail', u'tags': []}, u'3': {u'status': u'Done', u'description': u'saknar hieracy', u'tags': []}, u'2': {u'status': u'New', u'description': u'konstig namn p\xe5 rtdbvar', u'tags': []}}
+2016-03-03 04:41:35 PM - DEBUG - Storing DB to file
+2016-03-03 04:41:35 PM - INFO - DB stored to file
+2016-03-03 04:41:42 PM - INFO - Action: list
+2016-03-03 04:41:42 PM - DEBUG - Load DB
+2016-03-03 04:41:42 PM - DEBUG - db loaded with data: {u'1': {u'status': u'Done', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'New', u'description': u'Change slack e-mail', u'tags': []}, u'3': {u'status': u'Done', u'description': u'saknar hieracy', u'tags': []}, u'2': {u'status': u'New', u'description': u'konstig namn p\xe5 rtdbvar', u'tags': []}}
+2016-03-03 04:41:42 PM - DEBUG - Load DB
+2016-03-03 04:41:42 PM - DEBUG - db loaded with data: {u'1': {u'status': u'Done', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'New', u'description': u'Change slack e-mail', u'tags': []}, u'3': {u'status': u'Done', u'description': u'saknar hieracy', u'tags': []}, u'2': {u'status': u'New', u'description': u'konstig namn p\xe5 rtdbvar', u'tags': []}}
+2016-03-03 04:41:42 PM - DEBUG - Storing DB to file
+2016-03-03 04:41:42 PM - INFO - DB stored to file
+2016-03-03 04:41:51 PM - INFO - Action: list
+2016-03-03 04:41:51 PM - DEBUG - Load DB
+2016-03-03 04:41:51 PM - DEBUG - db loaded with data: {u'1': {u'status': u'Done', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'New', u'description': u'Change slack e-mail', u'tags': []}, u'3': {u'status': u'Done', u'description': u'saknar hieracy', u'tags': []}, u'2': {u'status': u'New', u'description': u'konstig namn p\xe5 rtdbvar', u'tags': []}}
+2016-03-03 04:41:51 PM - DEBUG - Load DB
+2016-03-03 04:41:51 PM - DEBUG - db loaded with data: {u'1': {u'status': u'Done', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'New', u'description': u'Change slack e-mail', u'tags': []}, u'3': {u'status': u'Done', u'description': u'saknar hieracy', u'tags': []}, u'2': {u'status': u'New', u'description': u'konstig namn p\xe5 rtdbvar', u'tags': []}}
+2016-03-03 04:41:51 PM - DEBUG - Storing DB to file
+2016-03-03 04:41:51 PM - INFO - DB stored to file
+2016-03-03 04:42:42 PM - INFO - Action: list
+2016-03-03 04:42:42 PM - DEBUG - Load DB
+2016-03-03 04:42:42 PM - DEBUG - db loaded with data: {u'1': {u'status': u'Done', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'New', u'description': u'Change slack e-mail', u'tags': []}, u'3': {u'status': u'Done', u'description': u'saknar hieracy', u'tags': []}, u'2': {u'status': u'New', u'description': u'konstig namn p\xe5 rtdbvar', u'tags': []}}
+2016-03-03 04:42:42 PM - DEBUG - Load DB
+2016-03-03 04:42:42 PM - DEBUG - db loaded with data: {u'1': {u'status': u'Done', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'New', u'description': u'Change slack e-mail', u'tags': []}, u'3': {u'status': u'Done', u'description': u'saknar hieracy', u'tags': []}, u'2': {u'status': u'New', u'description': u'konstig namn p\xe5 rtdbvar', u'tags': []}}
+2016-03-03 04:42:42 PM - DEBUG - Storing DB to file
+2016-03-03 04:42:42 PM - INFO - DB stored to file
+2016-03-03 04:43:04 PM - INFO - Action: status
+2016-03-03 04:43:04 PM - DEBUG - Argument: 0
+2016-03-03 04:43:04 PM - DEBUG - Argument: Done
+2016-03-03 04:43:04 PM - DEBUG - Load DB
+2016-03-03 04:43:04 PM - DEBUG - db loaded with data: {u'1': {u'status': u'Done', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'New', u'description': u'Change slack e-mail', u'tags': []}, u'3': {u'status': u'Done', u'description': u'saknar hieracy', u'tags': []}, u'2': {u'status': u'New', u'description': u'konstig namn p\xe5 rtdbvar', u'tags': []}}
+2016-03-03 04:43:04 PM - DEBUG - set status of 0 to Done
+2016-03-03 04:43:04 PM - DEBUG - Storing DB to file
+2016-03-03 04:43:04 PM - INFO - DB stored to file
+2016-03-03 04:43:18 PM - INFO - Action: status
+2016-03-03 04:43:18 PM - DEBUG - Argument: 0
+2016-03-03 04:43:18 PM - DEBUG - Argument: Done
+2016-03-03 04:43:18 PM - DEBUG - Load DB
+2016-03-03 04:43:18 PM - DEBUG - db loaded with data: {u'1': {u'status': u'Done', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'Done', u'description': u'Change slack e-mail', u'tags': []}, u'3': {u'status': u'Done', u'description': u'saknar hieracy', u'tags': []}, u'2': {u'status': u'New', u'description': u'konstig namn p\xe5 rtdbvar', u'tags': []}}
+2016-03-03 04:43:18 PM - DEBUG - set status of 0 to Done
+2016-03-03 04:43:18 PM - DEBUG - Storing DB to file
+2016-03-03 04:43:18 PM - INFO - DB stored to file
+2016-03-03 04:43:30 PM - INFO - Action: list
+2016-03-03 04:43:30 PM - DEBUG - Load DB
+2016-03-03 04:43:30 PM - DEBUG - db loaded with data: {u'1': {u'status': u'Done', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'Done', u'description': u'Change slack e-mail', u'tags': []}, u'3': {u'status': u'Done', u'description': u'saknar hieracy', u'tags': []}, u'2': {u'status': u'New', u'description': u'konstig namn p\xe5 rtdbvar', u'tags': []}}
+2016-03-03 04:43:30 PM - DEBUG - Load DB
+2016-03-03 04:43:30 PM - DEBUG - db loaded with data: {u'1': {u'status': u'Done', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'Done', u'description': u'Change slack e-mail', u'tags': []}, u'3': {u'status': u'Done', u'description': u'saknar hieracy', u'tags': []}, u'2': {u'status': u'New', u'description': u'konstig namn p\xe5 rtdbvar', u'tags': []}}
+2016-03-03 04:43:30 PM - DEBUG - Storing DB to file
+2016-03-03 04:43:30 PM - INFO - DB stored to file
+2016-03-03 04:43:47 PM - INFO - Action: status
+2016-03-03 04:43:47 PM - DEBUG - Argument: 2
+2016-03-03 04:43:47 PM - DEBUG - Argument: Done
+2016-03-03 04:43:47 PM - DEBUG - Load DB
+2016-03-03 04:43:47 PM - DEBUG - db loaded with data: {u'1': {u'status': u'Done', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'Done', u'description': u'Change slack e-mail', u'tags': []}, u'3': {u'status': u'Done', u'description': u'saknar hieracy', u'tags': []}, u'2': {u'status': u'New', u'description': u'konstig namn p\xe5 rtdbvar', u'tags': []}}
+2016-03-03 04:43:47 PM - DEBUG - set status of 2 to Done
+2016-03-03 04:43:47 PM - DEBUG - Storing DB to file
+2016-03-03 04:43:47 PM - INFO - DB stored to file
+2016-03-03 06:20:46 PM - INFO - Action: help
+2016-03-03 06:20:46 PM - DEBUG - Load DB
+2016-03-03 06:20:46 PM - DEBUG - db loaded with data: {u'1': {u'status': u'Done', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'Done', u'description': u'Change slack e-mail', u'tags': []}, u'3': {u'status': u'Done', u'description': u'saknar hieracy', u'tags': []}, u'2': {u'status': u'Done', u'description': u'konstig namn p\xe5 rtdbvar', u'tags': []}}
+2016-03-04 03:03:31 AM - INFO - Action: list
+2016-03-04 03:03:31 AM - DEBUG - Load DB
+2016-03-04 03:03:31 AM - DEBUG - db loaded with data: {u'1': {u'status': u'Done', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'Done', u'description': u'Change slack e-mail', u'tags': []}, u'3': {u'status': u'Done', u'description': u'saknar hieracy', u'tags': []}, u'2': {u'status': u'Done', u'description': u'konstig namn p\xe5 rtdbvar', u'tags': []}}
+2016-03-04 03:03:31 AM - DEBUG - Load DB
+2016-03-04 03:03:31 AM - DEBUG - db loaded with data: {u'1': {u'status': u'Done', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'Done', u'description': u'Change slack e-mail', u'tags': []}, u'3': {u'status': u'Done', u'description': u'saknar hieracy', u'tags': []}, u'2': {u'status': u'Done', u'description': u'konstig namn p\xe5 rtdbvar', u'tags': []}}
+2016-03-04 03:03:31 AM - DEBUG - Storing DB to file
+2016-03-04 03:03:31 AM - INFO - DB stored to file
+2016-03-04 03:04:13 AM - INFO - Action: add
+2016-03-04 03:04:13 AM - DEBUG - Argument: anchor is broken
+2016-03-04 03:04:13 AM - DEBUG - Load DB
+2016-03-04 03:04:13 AM - DEBUG - db loaded with data: {u'1': {u'status': u'Done', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'Done', u'description': u'Change slack e-mail', u'tags': []}, u'3': {u'status': u'Done', u'description': u'saknar hieracy', u'tags': []}, u'2': {u'status': u'Done', u'description': u'konstig namn p\xe5 rtdbvar', u'tags': []}}
+2016-03-04 03:04:13 AM - INFO - Adding item to db Id: 4 With Content:{'description': 'anchor is broken', 'tags': []}
+2016-03-04 03:04:13 AM - DEBUG - Storing DB to file
+2016-03-04 03:04:13 AM - INFO - DB stored to file
+2016-03-04 03:04:54 AM - INFO - Action: add
+2016-03-04 03:04:54 AM - DEBUG - Argument: fpc1 codes for componentlist
+2016-03-04 03:04:54 AM - DEBUG - Load DB
+2016-03-04 03:04:54 AM - DEBUG - db loaded with data: {u'1': {u'status': u'Done', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'Done', u'description': u'Change slack e-mail', u'tags': []}, u'3': {u'status': u'Done', u'description': u'saknar hieracy', u'tags': []}, u'2': {u'status': u'Done', u'description': u'konstig namn p\xe5 rtdbvar', u'tags': []}, u'4': {u'status': u'New', u'description': u'anchor is broken', u'tags': []}}
+2016-03-04 03:04:54 AM - INFO - Adding item to db Id: 5 With Content:{'description': 'fpc1 codes for componentlist', 'tags': []}
+2016-03-04 03:04:54 AM - DEBUG - Storing DB to file
+2016-03-04 03:04:54 AM - INFO - DB stored to file
+2016-03-04 03:05:02 AM - INFO - Action: add
+2016-03-04 03:05:02 AM - DEBUG - Argument: dtc rest server
+2016-03-04 03:05:02 AM - DEBUG - Load DB
+2016-03-04 03:05:02 AM - DEBUG - db loaded with data: {u'1': {u'status': u'Done', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'Done', u'description': u'Change slack e-mail', u'tags': []}, u'3': {u'status': u'Done', u'description': u'saknar hieracy', u'tags': []}, u'2': {u'status': u'Done', u'description': u'konstig namn p\xe5 rtdbvar', u'tags': []}, u'5': {u'status': u'New', u'description': u'fpc1 codes for componentlist', u'tags': []}, u'4': {u'status': u'New', u'description': u'anchor is broken', u'tags': []}}
+2016-03-04 03:05:02 AM - INFO - Adding item to db Id: 6 With Content:{'description': 'dtc rest server', 'tags': []}
+2016-03-04 03:05:02 AM - DEBUG - Storing DB to file
+2016-03-04 03:05:02 AM - INFO - DB stored to file
+2016-03-04 03:05:20 AM - INFO - Action: list
+2016-03-04 03:05:20 AM - DEBUG - Load DB
+2016-03-04 03:05:20 AM - DEBUG - db loaded with data: {u'1': {u'status': u'Done', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'Done', u'description': u'Change slack e-mail', u'tags': []}, u'3': {u'status': u'Done', u'description': u'saknar hieracy', u'tags': []}, u'2': {u'status': u'Done', u'description': u'konstig namn p\xe5 rtdbvar', u'tags': []}, u'5': {u'status': u'New', u'description': u'fpc1 codes for componentlist', u'tags': []}, u'4': {u'status': u'New', u'description': u'anchor is broken', u'tags': []}, u'6': {u'status': u'New', u'description': u'dtc rest server', u'tags': []}}
+2016-03-04 03:05:20 AM - DEBUG - Load DB
+2016-03-04 03:05:20 AM - DEBUG - db loaded with data: {u'1': {u'status': u'Done', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'Done', u'description': u'Change slack e-mail', u'tags': []}, u'3': {u'status': u'Done', u'description': u'saknar hieracy', u'tags': []}, u'2': {u'status': u'Done', u'description': u'konstig namn p\xe5 rtdbvar', u'tags': []}, u'5': {u'status': u'New', u'description': u'fpc1 codes for componentlist', u'tags': []}, u'4': {u'status': u'New', u'description': u'anchor is broken', u'tags': []}, u'6': {u'status': u'New', u'description': u'dtc rest server', u'tags': []}}
+2016-03-04 03:05:20 AM - DEBUG - Storing DB to file
+2016-03-04 03:05:20 AM - INFO - DB stored to file
+2016-03-04 03:36:36 AM - INFO - Action: add
+2016-03-04 03:36:36 AM - DEBUG - Argument: ae viewer layout parameters
+2016-03-04 03:36:36 AM - DEBUG - Load DB
+2016-03-04 03:36:36 AM - DEBUG - db loaded with data: {u'1': {u'status': u'Done', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'Done', u'description': u'Change slack e-mail', u'tags': []}, u'3': {u'status': u'Done', u'description': u'saknar hieracy', u'tags': []}, u'2': {u'status': u'Done', u'description': u'konstig namn p\xe5 rtdbvar', u'tags': []}, u'5': {u'status': u'New', u'description': u'fpc1 codes for componentlist', u'tags': []}, u'4': {u'status': u'New', u'description': u'anchor is broken', u'tags': []}, u'6': {u'status': u'New', u'description': u'dtc rest server', u'tags': []}}
+2016-03-04 03:36:36 AM - INFO - Adding item to db Id: 7 With Content:{'description': 'ae viewer layout parameters', 'tags': []}
+2016-03-04 03:36:36 AM - DEBUG - Storing DB to file
+2016-03-04 03:36:36 AM - INFO - DB stored to file
+2016-03-04 03:46:00 AM - INFO - Action: list
+2016-03-04 03:46:00 AM - DEBUG - Load DB
+2016-03-04 03:46:00 AM - DEBUG - db loaded with data: {u'1': {u'status': u'Done', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'Done', u'description': u'Change slack e-mail', u'tags': []}, u'3': {u'status': u'Done', u'description': u'saknar hieracy', u'tags': []}, u'2': {u'status': u'Done', u'description': u'konstig namn p\xe5 rtdbvar', u'tags': []}, u'5': {u'status': u'New', u'description': u'fpc1 codes for componentlist', u'tags': []}, u'4': {u'status': u'New', u'description': u'anchor is broken', u'tags': []}, u'7': {u'status': u'New', u'description': u'ae viewer layout parameters', u'tags': []}, u'6': {u'status': u'New', u'description': u'dtc rest server', u'tags': []}}
+2016-03-04 03:46:00 AM - DEBUG - Load DB
+2016-03-04 03:46:00 AM - DEBUG - db loaded with data: {u'1': {u'status': u'Done', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'Done', u'description': u'Change slack e-mail', u'tags': []}, u'3': {u'status': u'Done', u'description': u'saknar hieracy', u'tags': []}, u'2': {u'status': u'Done', u'description': u'konstig namn p\xe5 rtdbvar', u'tags': []}, u'5': {u'status': u'New', u'description': u'fpc1 codes for componentlist', u'tags': []}, u'4': {u'status': u'New', u'description': u'anchor is broken', u'tags': []}, u'7': {u'status': u'New', u'description': u'ae viewer layout parameters', u'tags': []}, u'6': {u'status': u'New', u'description': u'dtc rest server', u'tags': []}}
+2016-03-04 03:46:00 AM - DEBUG - Storing DB to file
+2016-03-04 03:46:00 AM - INFO - DB stored to file
+2016-03-04 03:46:38 AM - INFO - Action: status
+2016-03-04 03:46:38 AM - DEBUG - Argument: 4
+2016-03-04 03:46:38 AM - DEBUG - Argument: Done
+2016-03-04 03:46:38 AM - DEBUG - Load DB
+2016-03-04 03:46:38 AM - DEBUG - db loaded with data: {u'1': {u'status': u'Done', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'Done', u'description': u'Change slack e-mail', u'tags': []}, u'3': {u'status': u'Done', u'description': u'saknar hieracy', u'tags': []}, u'2': {u'status': u'Done', u'description': u'konstig namn p\xe5 rtdbvar', u'tags': []}, u'5': {u'status': u'New', u'description': u'fpc1 codes for componentlist', u'tags': []}, u'4': {u'status': u'New', u'description': u'anchor is broken', u'tags': []}, u'7': {u'status': u'New', u'description': u'ae viewer layout parameters', u'tags': []}, u'6': {u'status': u'New', u'description': u'dtc rest server', u'tags': []}}
+2016-03-04 03:46:38 AM - DEBUG - set status of 4 to Done
+2016-03-04 03:46:38 AM - DEBUG - Storing DB to file
+2016-03-04 03:46:38 AM - INFO - DB stored to file
+2016-03-04 03:46:41 AM - INFO - Action: list
+2016-03-04 03:46:41 AM - DEBUG - Load DB
+2016-03-04 03:46:41 AM - DEBUG - db loaded with data: {u'1': {u'status': u'Done', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'Done', u'description': u'Change slack e-mail', u'tags': []}, u'3': {u'status': u'Done', u'description': u'saknar hieracy', u'tags': []}, u'2': {u'status': u'Done', u'description': u'konstig namn p\xe5 rtdbvar', u'tags': []}, u'5': {u'status': u'New', u'description': u'fpc1 codes for componentlist', u'tags': []}, u'4': {u'status': u'Done', u'description': u'anchor is broken', u'tags': []}, u'7': {u'status': u'New', u'description': u'ae viewer layout parameters', u'tags': []}, u'6': {u'status': u'New', u'description': u'dtc rest server', u'tags': []}}
+2016-03-04 03:46:41 AM - DEBUG - Load DB
+2016-03-04 03:46:41 AM - DEBUG - db loaded with data: {u'1': {u'status': u'Done', u'description': u'update wiki with db upload process', u'tags': []}, u'0': {u'status': u'Done', u'description': u'Change slack e-mail', u'tags': []}, u'3': {u'status': u'Done', u'description': u'saknar hieracy', u'tags': []}, u'2': {u'status': u'Done', u'description': u'konstig namn p\xe5 rtdbvar', u'tags': []}, u'5': {u'status': u'New', u'description': u'fpc1 codes for componentlist', u'tags': []}, u'4': {u'status': u'Done', u'description': u'anchor is broken', u'tags': []}, u'7': {u'status': u'New', u'description': u'ae viewer layout parameters', u'tags': []}, u'6': {u'status': u'New', u'description': u'dtc rest server', u'tags': []}}
+2016-03-04 03:46:41 AM - DEBUG - Storing DB to file
+2016-03-04 03:46:41 AM - INFO - DB stored to file
