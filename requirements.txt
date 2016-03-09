@@ -1,0 +1,4 @@
+packaging==16.5
+pyparsing==2.1.0
+six==1.10.0
+virtualenv==15.0.0
