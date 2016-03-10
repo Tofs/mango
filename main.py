@@ -29,7 +29,7 @@ def listAll(args):
     if len(args) == 0:
         db.setDB(fileDB.Load())
         for item in db.getItems():
-            print item
+            print(item)
     else:
         warning("User input things... not allowed here")
 
@@ -69,10 +69,10 @@ if __name__ == "__main__":
 
     if len(args) == 1:
         for action in actions:
-            print action
+            print(action)
         exit()
 
-  
+
 
     args.pop(0)
     action = args.pop(0).lower()
