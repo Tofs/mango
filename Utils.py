@@ -1,8 +1,7 @@
 import logging.config
 
 def initLogger(verbose):
-    return
     if verbose:
-        logging.basicConfig(filename='./Config/log.conf')
+        logging.config.fileConfig('./verbose.conf')
     else:
-        logging.basicConfig(filename='./Config/verbose.conf')
+        logging.config.fileConfig('./log.conf')

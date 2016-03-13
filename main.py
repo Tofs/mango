@@ -77,7 +77,7 @@ if __name__ == "__main__":
     args.pop(0)
     action = args.pop(0).lower()
     if action == "-v":
-        Utils.initLogger(False)
+        Utils.initLogger(True)
         action = args.pop(0).lower()
     else:
         Utils.initLogger(True)
