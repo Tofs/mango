@@ -4,9 +4,10 @@ from logging import *
 
 
 
-def Init(force = False):
+def Init(force = False, dbPath = "~/.db"):
+    dbPath = os.path.expanduser(dbPath)
     debug("Init a DB")
-    if os.path.isfile(".db"):
+    if os.path.isfile(dbPath):
         if force:
             warning("Overwriting DB")
             createDB = True
@@ -27,17 +28,19 @@ def Init(force = False):
         return Load()
 
 
-def Load():
+def Load(dbPath = "~/.db"):
+    dbPath = os.path.expanduser(dbPath)
     debug("Load DB")
-    if os.path.isfile(".db"):
-        with open(".db") as file:
+    if os.path.isfile(dbPath):
+        with open(dbPath) as file:
             return json.load(file)
     else:
         error("No DB exist in folder")
         return None
 
-def Store(db):
+def Store(db, dbPath = "~/.db"):
+    dbPath = os.path.expanduser(dbPath)
     debug("Storing DB to file")
-    with open(".db" , 'w') as outputFile:
+    with open(dbPath, 'w') as outputFile:
         json.dump(db, outputFile)
         info("DB stored to file")

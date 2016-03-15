@@ -80,7 +80,7 @@ if __name__ == "__main__":
         Utils.initLogger(True)
         action = args.pop(0).lower()
     else:
-        Utils.initLogger(True)
+        Utils.initLogger(False)
 
 
     info("Action: {0}".format(action))
