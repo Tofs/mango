@@ -1,4 +1,4 @@
-from gtk import Window, VBox, HBox, Entry, Button
+from gtk import Window, VBox, HBox, Entry, Button, ListStore, TreeView, CellRendererText, TreeViewColumn
 import gtk
 import dbHandler as fileDB
 import dbManager as db
@@ -18,6 +18,21 @@ class helloworld:
     def addNewItem(self, widget, data=None):
         db.addItem(str(self.addText.get_text()))
         fileDB.Store(db.getDB())
+
+    def createItemList(self):
+        self.taskStore = ListStore(str, str)
+        self.taskStore.append(["c1a", "c2a"])
+        renderer = CellRendererText()
+        tree = TreeView(self.taskStore)
+
+        column = TreeViewColumn("Title", renderer, text=0)
+        tree.append_column(column)
+        column = TreeViewColumn("Title", renderer, text=1)
+
+        tree.append_column(column)
+        tree.show()
+
+        return tree
 
 
     def createAddBar(self):
@@ -41,11 +56,13 @@ class helloworld:
     def __init__(self):
 
         addNewBar = self.createAddBar()
+        tree = self.createItemList()
+
 
         verticalbox = VBox(False, 0)
-        verticalbox.add(addNewBar)
         verticalbox.show()
-
+        verticalbox.add(addNewBar)
+        verticalbox.add(tree)
 
         self.window = Window(gtk.WINDOW_TOPLEVEL)
         self.window.set_title("Mango Mapper")
