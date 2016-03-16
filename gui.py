@@ -19,36 +19,41 @@ class helloworld:
         db.addItem(str(self.addText.get_text()))
         fileDB.Store(db.getDB())
 
-    def __init__(self):
-        self.window = Window(gtk.WINDOW_TOPLEVEL)
-        self.window.set_title("Mango Mapper")
-        self.window.connect("delete_event", self.delete_event)
-        self.window.connect("destroy", self.destroy)
-        self.window.set_border_width(10)
-        self.window.show()
 
-        verticalbox = VBox(False, 0)
-        self.window.add(verticalbox)
-        verticalbox.show()
-
-
-
-
-        # create the buttom row, housing add task funcs
-        addNewBar = HBox(False, 0)
-        verticalbox.add(addNewBar)
-        addNewBar.show()
-
+    def createAddBar(self):
         # text field
         self.addText = Entry(max=0)
-        addNewBar.add(self.addText)
         self.addText.insert_text("Write new task here", position=0)
         self.addText.show()
 
         addNewButton = Button("Add Item")
         addNewButton.show()
         addNewButton.connect("clicked", self.addNewItem, None)
+
+
+        #build structs
+        addNewBar = HBox(False, 0)
+        addNewBar.add(self.addText)
         addNewBar.add(addNewButton)
+        addNewBar.show()
+        return addNewBar
+
+    def __init__(self):
+
+        addNewBar = self.createAddBar()
+
+        verticalbox = VBox(False, 0)
+        verticalbox.add(addNewBar)
+        verticalbox.show()
+
+
+        self.window = Window(gtk.WINDOW_TOPLEVEL)
+        self.window.set_title("Mango Mapper")
+        self.window.connect("delete_event", self.delete_event)
+        self.window.connect("destroy", self.destroy)
+        self.window.set_border_width(10)
+        self.window.show()
+        self.window.add(verticalbox)
 
 
     def main(self):
