@@ -19,17 +19,31 @@ class helloworld:
         db.addItem(str(self.addText.get_text()))
         fileDB.Store(db.getDB())
 
+    def refreshTable(self):
+        for key, item in db.getItems():
+            print item
+            print item["status"]
+            self.taskStore.append([
+                item["status"],
+                item["description"],
+                str(item["tags"])
+            ])
+
+
     def createItemList(self):
-        self.taskStore = ListStore(str, str)
-        self.taskStore.append(["c1a", "c2a"])
+        self.taskStore = ListStore(str, str, str)
+        self.refreshTable()
         renderer = CellRendererText()
         tree = TreeView(self.taskStore)
 
-        column = TreeViewColumn("Title", renderer, text=0)
-        tree.append_column(column)
-        column = TreeViewColumn("Title", renderer, text=1)
+        statusColumn = TreeViewColumn("Status", renderer , text=0)
+        descColumn = TreeViewColumn("Description", renderer, text=1)
+        tagColumn = TreeViewColumn("Tags", renderer, text=2)
 
-        tree.append_column(column)
+        allColumns = [ statusColumn, descColumn, tagColumn ]
+
+        for column in allColumns:
+            tree.append_column(column)
         tree.show()
 
         return tree
@@ -78,7 +92,7 @@ class helloworld:
 
 
 if __name__ == "__main__":
-    Utils.initLogger(True)
+    Utils.initLogger(False)
     db.setDB(fileDB.Load())
     hello = helloworld()
     hello.main()
