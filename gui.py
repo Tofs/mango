@@ -1,13 +1,9 @@
-from gtk import Window, VBox, HBox, Entry, Button, ListStore, TreeView, CellRendererText, TreeViewColumn
 import gtk
 import dbHandler as fileDB
 import dbManager as db
 import Utils
 
 class helloworld:
-    def helloworld(self, wiget, data=None):
-        print("Hello world from mango brain!")
-
     def delete_event(self, widget, event, data=None):
         print("Delete event")
         return False
@@ -21,24 +17,22 @@ class helloworld:
 
     def refreshTable(self):
         for key, item in db.getItems():
-            print item
-            print item["status"]
             self.taskStore.append([
                 item["status"],
                 item["description"],
                 str(item["tags"])
             ])
 
-
     def createItemList(self):
-        self.taskStore = ListStore(str, str, str)
+        self.taskStore = gtk.ListStore(str, str, str)
         self.refreshTable()
-        renderer = CellRendererText()
-        tree = TreeView(self.taskStore)
+        renderer = gtk.CellRendererText()
+        toggle = gtk.CellRendererToggle()
+        tree = gtk.TreeView(self.taskStore)
 
-        statusColumn = TreeViewColumn("Status", renderer , text=0)
-        descColumn = TreeViewColumn("Description", renderer, text=1)
-        tagColumn = TreeViewColumn("Tags", renderer, text=2)
+        statusColumn = gtk.TreeViewColumn("Status", toggle , text=0)
+        descColumn = gtk.TreeViewColumn("Description", renderer, text=1)
+        tagColumn = gtk.TreeViewColumn("Tags", renderer, text=2)
 
         allColumns = [ statusColumn, descColumn, tagColumn ]
 
@@ -51,17 +45,16 @@ class helloworld:
 
     def createAddBar(self):
         # text field
-        self.addText = Entry(max=0)
+        self.addText = gtk.Entry(max=0)
         self.addText.insert_text("Write new task here", position=0)
         self.addText.show()
 
-        addNewButton = Button("Add Item")
+        addNewButton = gtk.Button("Add Item")
         addNewButton.show()
         addNewButton.connect("clicked", self.addNewItem, None)
 
-
         #build structs
-        addNewBar = HBox(False, 0)
+        addNewBar = gtk.HBox(False, 0)
         addNewBar.add(self.addText)
         addNewBar.add(addNewButton)
         addNewBar.show()
@@ -73,12 +66,12 @@ class helloworld:
         tree = self.createItemList()
 
 
-        verticalbox = VBox(False, 0)
+        verticalbox = gtk.VBox(False, 0)
         verticalbox.show()
         verticalbox.add(addNewBar)
         verticalbox.add(tree)
 
-        self.window = Window(gtk.WINDOW_TOPLEVEL)
+        self.window = gtk.Window(gtk.WINDOW_TOPLEVEL)
         self.window.set_title("Mango Mapper")
         self.window.connect("delete_event", self.delete_event)
         self.window.connect("destroy", self.destroy)
